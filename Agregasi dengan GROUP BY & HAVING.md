@@ -84,7 +84,7 @@ Analisa :
 
 # Menampilkan Data
 1. Menampilkan Jumlah Pegawai dan Jumlah Jabatan
-	 ![[asset_1/1.png]]
+![](asset_1/1.png)]
 	Analisis :
 	1. `SELECT COUNT(NIP) AS JumlahPegawai`: Menghitung jumlah total pegawai berdasarkan kolom NIP.
 	2. `COUNT(Jabatan) AS JumlahJabatan`: Menghitung jumlah total jabatan berdasarkan kolom Jabatan.
@@ -96,7 +96,7 @@ Analisa :
 	1. `SELECT COUNT(NIP) AS JumlahPegawai`: Ini menghitung jumlah total pegawai berdasarkan kolom NIP (Nomor Induk Pegawai).
 	2. `FROM Pegawai`: Data diambil dari tabel Pegawai.
 	3. `WHERE NoCab = 'C102'`: Kondisi ini menambahkan filter, sehingga hanya menghitung jumlah pegawai yang memiliki nilai 'C102' pada kolom NoCab (Nomor Cabang).
-	
+
 3. Mengelompokkan data
 	 ![[asset_1/3.png]]
 	 Analisis :
@@ -111,7 +111,7 @@ Analisa :
 	2. `FROM Pegawai`: Data diambil dari tabel Pegawai.
 	3. `GROUP BY NoCab`: Hasil penghitungan akan dikelompokkan berdasarkan nilai pada kolom NoCab.
 	4. `HAVING COUNT(NIP) >= 3`: Kondisi ini menambahkan filter, sehingga hanya akan menampilkan cabang-cabang yang memiliki jumlah pegawai minimal 3.
-	
+
 5. Menampilkan suatu data yang telah dijumlahkan
 	 ![[asset_1/5.png]]
 	Analisis :
