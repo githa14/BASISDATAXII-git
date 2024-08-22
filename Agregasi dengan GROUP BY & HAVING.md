@@ -84,7 +84,7 @@ Analisa :
 
 # Menampilkan Data
 1. Menampilkan Jumlah Pegawai dan Jumlah Jabatan
-![revisi_baru1](asset_1/1.png)]
+![revisi_baru1](asset_1/1.png)
 	Analisis :
 	1. `SELECT COUNT(NIP) AS JumlahPegawai`: Menghitung jumlah total pegawai berdasarkan kolom NIP.
 	2. `COUNT(Jabatan) AS JumlahJabatan`: Menghitung jumlah total jabatan berdasarkan kolom Jabatan.
