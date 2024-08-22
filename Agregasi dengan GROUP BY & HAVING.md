@@ -91,11 +91,11 @@ Analisa :
 	3. `FROM Pegawai`: Data diambil dari tabel Pegawai
 
 2. Menghitung jumlah baris data pada tabel NoCab 'C102'
-![](asset_1/2.png)
+![](asset_1/2.png) 
 	Analisis :
 	1. `SELECT COUNT(NIP) AS JumlahPegawai`: Ini menghitung jumlah total pegawai berdasarkan kolom NIP (Nomor Induk Pegawai).
-	2. `FROM Pegawai`: Data diambil dari tabel Pegawai.
-	3. `WHERE NoCab = 'C102'`: Kondisi ini menambahkan filter, sehingga hanya menghitung jumlah pegawai yang memiliki nilai 'C102' pada kolom NoCab (Nomor Cabang).
+	1. `FROM Pegawai`: Data diambil dari tabel Pegawai.
+	2. `WHERE NoCab = 'C102'`: Kondisi ini menambahkan filter, sehingga hanya menghitung jumlah pegawai yang memiliki nilai 'C102' pada kolom NoCab (Nomor Cabang).
 
 3. Mengelompokkan data
 	 ![[asset_1/3.png]]
