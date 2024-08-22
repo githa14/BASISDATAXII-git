@@ -92,21 +92,21 @@ Analisa :
 
 2. Menghitung jumlah baris data pada tabel NoCab 'C102'
 	![](asset_1/2.png)
-	
+
 	Analisis :
 	1. `SELECT COUNT(NIP) AS JumlahPegawai`: Ini menghitung jumlah total pegawai berdasarkan kolom NIP (Nomor Induk Pegawai).
 	1. `FROM Pegawai`: Data diambil dari tabel Pegawai.
 	2. `WHERE NoCab = 'C102'`: Kondisi ini menambahkan filter, sehingga hanya menghitung jumlah pegawai yang memiliki nilai 'C102' pada kolom NoCab (Nomor Cabang).
 
 3. Mengelompokkan data
-	 ![[asset_1/3.png]]
+	 ![revisi_baru1](asset_1/3.png)
 	 Analisis :
 	 1. `SELECT NoCab, COUNT(NIP) AS JumlahPegawai`: Ini menghitung jumlah pegawai berdasarkan kolom NoCab (Nomor Cabang) dan menampilkannya dengan nama kolom "JumlahPegawai".
 	2. `FROM Pegawai`: Data diambil dari tabel Pegawai.
 	3. `GROUP BY NoCab`: Hasil penghitungan akan dikelompokkan berdasarkan nilai pada kolom NoCab.
 
 4. Menampilkan suatu kelompok data dengan menentukan kondisi yang terpenuhi
-	 ![[asset_1/4.png]]
+	 ![revisi_baru1](asset_1/4.png)
 	Analisis :
 	1. `SELECT NoCab, COUNT(NIP) AS JumlahPegawai`: Ini menghitung jumlah pegawai berdasarkan kolom NoCab (Nomor Cabang) dan menampilkannya dengan nama kolom "JumlahPegawai".
 	2. `FROM Pegawai`: Data diambil dari tabel Pegawai.
@@ -114,7 +114,7 @@ Analisa :
 	4. `HAVING COUNT(NIP) >= 3`: Kondisi ini menambahkan filter, sehingga hanya akan menampilkan cabang-cabang yang memiliki jumlah pegawai minimal 3.
 
 5. Menampilkan suatu data yang telah dijumlahkan
-	 ![[asset_1/5.png]]
+	 ![revisi_baru1](asset_1/5.png)
 	Analisis :
 	1. `SELECT SUM(Gaji) AS Total_Gaji`: Ini menghitung total jumlah gaji dari semua pegawai dengan menjumlahkan nilai pada kolom Gaji, dan menampilkannya dengan nama kolom "Total_Gaji".
 	2. `FROM Pegawai`: Data diambil dari tabel Pegawai.
